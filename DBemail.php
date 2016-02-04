@@ -14,8 +14,8 @@ if ($conn->connect_error) {
 // sql to create table
 $sql = "CREATE TABLE Email (
 id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
-idsent VARCHAR(10) NOT NULL,
-idrecive VARCHAR(10) NOT NULL,
+idsent VARCHAR(100) NOT NULL,
+idrecive VARCHAR(100) NOT NULL,
 subject VARCHAR(100) NOT NULL,
 detail VARCHAR(250) NOT NULL,
 reg_date TIMESTAMP

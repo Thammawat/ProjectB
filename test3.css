@@ -1,0 +1,23 @@
+h1{
+margin-top: 80px;
+    margin-bottom: 10px;
+    margin-right: 150px;
+    margin-left: 400px;
+color: white;
+
+}
+nav{
+   margin-right: 20px;
+    margin-left: 20px;
+}
+form{
+	padding-top: 90px;
+   padding-right: 300px;
+    padding-left: 300px;
+}
+button {
+  color: black;
+  font-weight: bold;
+  background-color: 0099FF;
+}
+.form
